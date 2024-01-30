@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
   }
-  #term {
+  .term {
     background-color: rgba(0, 0, 0, 0.8);
     width: 200px;
     height: 300px;
@@ -116,4 +116,8 @@ body {
   .t10 .term_monitor {
     background-color: #fe3300;
     color: white;
+  }
+  .flex {
+    display: flex;
+    gap: 30px;
   }
